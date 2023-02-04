@@ -1,0 +1,38 @@
+header {
+    height: 100px;
+    width: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10;
+  }
+
+
+.main-header {
+    line-height: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+    color: rgb(55, 53, 53);
+    font-size: small
+  }
+
+  section {
+    width: 60%;
+    /* Sets top and bottom margin to 20px. Auto will center element */
+    margin: 20px auto;
+    /* border-bottom: 5px solid darkblue;
+    background-color: #ffffd4; */
+   flex-wrap: wrap;
+  }
+
+  .about-me-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+
