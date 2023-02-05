@@ -72,3 +72,9 @@ footer {
     background-color: #434343;
     color: #ffffff;
 }
+
+/* @media screen and (min-width: 769px) {
+    .my-work-section-2 {
+        width: 100%
+    }
+} */
