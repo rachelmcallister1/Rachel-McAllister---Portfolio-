@@ -19,6 +19,7 @@ body {
     font-size: small
   }
 
+
   section {
     width: 60%;
     /* Sets top and bottom margin to 20px. Auto will center element */
@@ -36,3 +37,25 @@ body {
   }
 
 
+.my-work-section {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+  h3 {
+    flex-wrap: wrap;
+    top: 220px
+  }
+
+  .my-work-section-2 {
+    position: relative;
+    align-items: center;
+    text-align: center;
+}
+
+  h3 {
+    flex-wrap: wrap;
+    top: 220px
+  }
+    
