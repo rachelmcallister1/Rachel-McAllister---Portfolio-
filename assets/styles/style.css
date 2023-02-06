@@ -1,30 +1,31 @@
-header {
-    height: 100px;
-    width: 100%;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     margin: 10;
   }
 
+header {
+    height: 100px;
+    width: 100%;
+}
+
+header h1 {
+    color: black
+}
 
 .main-header {
     line-height: 15px;
     display: flex;
     justify-content: space-between;
     padding: 10px;
-    background: rgb(255, 255, 255);
-    color: rgb(55, 53, 53);
+    color: rgb(140, 129, 129);
     font-size: small
   }
-
 
   section {
     width: 60%;
     margin: 20px auto;
    flex-wrap: wrap;
-  }
+}
 
   .about-me-content {
     display: flex;
@@ -32,44 +33,59 @@ body {
     justify-content: space-around;
     gap: 10px;
     margin-bottom: 100px;
-  }
+}
 
+
+  .my-work-header {
+    text-align: center;
+  }
 
 .my-work-section {
     position: relative;
     align-items: center;
     text-align: center;
+    display: flex;
+    justify-content: center;
     padding: 50px;
     height: 300px;
-    display: flex;
 }
 
-.text-block {
+
+  .work-text {
     position: absolute;
-    bottom: 60px;
-    right: 100px;
-    background-color: rgb(252, 70, 70);
-    color: rgb(0, 0, 0);
-    padding-left: 20px;
-    padding-right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: medium;
+    text-align: center;
+    bottom: -5%;  
   }
 
-  .my-work-section-2 {
-    position: relative;
-    align-items: center;
-    text-align: center;
-    padding: 50px;
-    height: 300px;
-    display: flex;
-}
+  .centered {
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: medium;
+    left: 18%;
+    bottom: 7%; 
+  }
+  
+.centered-2 {
+    position: absolute;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: medium;
+    left: 40%;
+    bottom: 7%;
+  }
 footer {
     font-size: 15px;
-    padding: 30px;
-    clear: both;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    background-color: #434343;
-    color: #ffffff;
+    background-color: black;
+    color: white
 }
 
 /* @media screen and (min-width: 769px) {
@@ -77,3 +93,15 @@ footer {
         width: 100%
     }
 } */
+@media screen and (max-width: 992px) {
+    .card {
+      width: 100%;
+    }
+  }
+  
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 50%;
+    }
+  }
