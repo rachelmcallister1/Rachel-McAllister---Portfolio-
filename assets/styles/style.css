@@ -44,9 +44,14 @@ body {
     display: flex;
 }
 
-  h3 {
-    flex-wrap: wrap;
-    top: 220px
+.text-block {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    background-color: rgb(252, 70, 70);
+    color: rgb(0, 0, 0);
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .my-work-section-2 {
@@ -58,11 +63,6 @@ body {
     display: flex;
 }
 
-  h3 {
-    flex-wrap: wrap;
-    top: 220px
-  }
-    
 footer {
     font-size: 15px;
     padding: 30px;
