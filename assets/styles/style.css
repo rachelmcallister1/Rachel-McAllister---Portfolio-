@@ -94,14 +94,14 @@ footer {
     }
 } */
 @media screen and (max-width: 992px) {
-    .card {
+    .my-work-section {
       width: 100%;
     }
   }
   
   /* Cards are stacked on top of each other at 768px or smaller */
   @media screen and (max-width: 768px) {
-    .card {
+    .my-work-section {
       width: 50%;
     }
   }
