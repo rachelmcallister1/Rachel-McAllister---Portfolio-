@@ -50,6 +50,9 @@ header h1 {
     height: 300px;
 }
 
+.my-work-section :hover {
+opacity: .9;
+}
 
   .work-text {
     position: absolute;
@@ -80,8 +83,7 @@ header h1 {
 footer {
     font-size: 15px;
     padding: 10px;
-    display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     color: rgb(0, 0, 0)
